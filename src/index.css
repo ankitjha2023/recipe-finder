@@ -1,0 +1,38 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: rgba(159, 50, 144, 0.72);
+}
+.card{
+    width: 18rem;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: contain;
+}
+
+#button-container{
+    margin-top: 100px;
+}
+
+@media (max-width:768px) {
+
+    #logo{
+        text-align: center;
+    }
+    #button-container{
+        margin-top: 130px;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 14rem;
+    }
+
+    .card img{
+        height: 150px;
+    }
+}
